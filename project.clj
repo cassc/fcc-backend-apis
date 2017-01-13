@@ -24,5 +24,7 @@
                  [environ "1.1.0"]]
   ;;:plugins [[lein-environ "1.1.0"]]
   :javac-options ["-target" "1.8" "-source" "1.8"]
-  ;;:profiles {:dev {:source-paths ["src-dev"]}}
+  :profiles {:dev {:source-paths ["src-dev"]}
+             :uberjar {:aot [backend-apis.core]}}
+  :jvm-opts ["-Dfile.encoding=UTF8" "-Dsun.io.useCanonCaches=false"]
   :main ^:skip-aot backend-apis.core)
