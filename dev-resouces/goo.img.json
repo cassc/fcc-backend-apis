@@ -1,0 +1,240 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - dog",
+    "totalResults": "740000000",
+    "searchTerms": "dog",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "000603907995573100099:jh1pdv3e7qc",
+    "searchType": "image"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - dog",
+    "totalResults": "740000000",
+    "searchTerms": "dog",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "000603907995573100099:jh1pdv3e7qc",
+    "searchType": "image"
+   }
+  ]
+ },
+ "context": {
+  "title": "Simple Image Search"
+ },
+ "searchInformation": {
+  "searchTime": 0.597319,
+  "formattedSearchTime": "0.60",
+  "totalResults": "740000000",
+  "formattedTotalResults": "740,000,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Free photo: Dog, Labrador, Light Brown, Pet - Free Image on ...",
+   "htmlTitle": "Free photo: \u003cb\u003eDog\u003c/b\u003e, Labrador, Light Brown, Pet - Free Image on ...",
+   "link": "https://cdn.pixabay.com/photo/2016/02/19/15/46/dog-1210559_960_720.jpg",
+   "displayLink": "pixabay.com",
+   "snippet": "Dog, Labrador, Light Brown, ...",
+   "htmlSnippet": "\u003cb\u003eDog\u003c/b\u003e, Labrador, Light Brown, ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://pixabay.com/en/dog-labrador-light-brown-pet-1210559/",
+    "height": 720,
+    "width": 960,
+    "byteSize": 136886,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSl1BjeLJp8PsaP0BglAe7gtNBDOaNycIGKtOaLhLv49zd2wg3MqU5bMak",
+    "thumbnailHeight": 111,
+    "thumbnailWidth": 148
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "I GOT THE CUTEST DOG EVER!? - (CUTE DOG) - PUPPY - YouTube",
+   "htmlTitle": "I GOT THE CUTEST \u003cb\u003eDOG\u003c/b\u003e EVER!? - (CUTE \u003cb\u003eDOG\u003c/b\u003e) - PUPPY - YouTube",
+   "link": "https://i.ytimg.com/vi/opKg3fyqWt4/hqdefault.jpg",
+   "displayLink": "www.youtube.com",
+   "snippet": "I GOT THE CUTEST DOG EVER!?",
+   "htmlSnippet": "I GOT THE CUTEST \u003cb\u003eDOG\u003c/b\u003e EVER!?",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://www.youtube.com/watch?v=opKg3fyqWt4",
+    "height": 360,
+    "width": 480,
+    "byteSize": 20692,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxQhCbtoUZMtYZuaI17Wq3J5q9_kRSUfHwUhOFw5bOmqdMq1yjYg7BSw",
+    "thumbnailHeight": 97,
+    "thumbnailWidth": 129
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Dog Agency' Fetches Ad Dollars for Popular Pooches - WSJ",
+   "htmlTitle": "The \u003cb\u003eDog\u003c/b\u003e Agency&#39; Fetches Ad Dollars for Popular Pooches - WSJ",
+   "link": "https://si.wsj.net/public/resources/images/BN-MS389_dog_pr_P_20160222135229.jpg",
+   "displayLink": "www.wsj.com",
+   "snippet": "See how your favorite dog has ...",
+   "htmlSnippet": "See how your favorite \u003cb\u003edog\u003c/b\u003e has ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.wsj.com/articles/the-dog-agency-fetches-ad-dollars-for-popular-pooches-1459940400",
+    "height": 499,
+    "width": 749,
+    "byteSize": 53348,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeMbOQe9bw1rQJXrSLIpmN5rTYLuOlnrn5btrvsORGqMWA1oH3K95bRtY",
+    "thumbnailHeight": 94,
+    "thumbnailWidth": 141
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Halloween dog costume ideas: 32 easy, cute costumes for your ...",
+   "htmlTitle": "Halloween \u003cb\u003edog\u003c/b\u003e costume ideas: 32 easy, cute costumes for your ...",
+   "link": "http://media1.s-nbcnews.com/j/newscms/2016_37/1157735/dog-halloween-costume-turtle-today-16-09-13_3948f79ce3b0c6eb795493c5a671ff13.today-inline-large.png",
+   "displayLink": "www.today.com",
+   "snippet": "Costumeexpress.com",
+   "htmlSnippet": "Costumeexpress.com",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://www.today.com/style/32-cute-easy-halloween-costume-ideas-dogs-t102818",
+    "height": 352,
+    "width": 521,
+    "byteSize": 190711,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlGY4PyV7QOG-drzLSsx79CK5SUpek_KNdEd2Bf0X67rWJfflJBk57VqA",
+    "thumbnailHeight": 89,
+    "thumbnailWidth": 131
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "A Warning for Dogs, and Their Best Friends, in Study of Fertility ...",
+   "htmlTitle": "A Warning for \u003cb\u003eDogs\u003c/b\u003e, and Their Best Friends, in Study of Fertility ...",
+   "link": "https://static01.nyt.com/images/2016/08/10/science/10tb-dogsperm01/10tb-dogsperm01-superJumbo.jpg",
+   "displayLink": "www.nytimes.com",
+   "snippet": "Golden retriever puppies.",
+   "htmlSnippet": "Golden retriever puppies.",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.nytimes.com/2016/08/10/science/dog-sperm-fertility.html",
+    "height": 1325,
+    "width": 2048,
+    "byteSize": 630048,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQsHOako6qx75BxNfb9qSY9quGYHnL1MYK0bt5FnvDGpVXWoSrUbBy5CwDx",
+    "thumbnailHeight": 97,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Swimming dog finds a new way to paddle, stands up in the water ...",
+   "htmlTitle": "Swimming \u003cb\u003edog\u003c/b\u003e finds a new way to paddle, stands up in the water ...",
+   "link": "http://media2.s-nbcnews.com/i/newscms/2016_25/1132711/dog-standing-walking-pool-today-160620-tease_a9e6cb9a7b2574e0fbd9fb212ddedf36.jpg",
+   "displayLink": "www.today.com",
+   "snippet": "Swimming dog finds a new way ...",
+   "htmlSnippet": "Swimming \u003cb\u003edog\u003c/b\u003e finds a new way ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.today.com/pets/swimming-dog-finds-new-way-paddle-stands-water-instead-t99471",
+    "height": 1407,
+    "width": 2500,
+    "byteSize": 1409988,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTU92wISoel9lNW-vl1he8CyC1u_cw6t2QNVopYY7PJWVs6oZtKt-M6A1w",
+    "thumbnailHeight": 84,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Most Famous American Dog on Instagram - The New Yorker",
+   "htmlTitle": "The Most Famous American \u003cb\u003eDog\u003c/b\u003e on Instagram - The New Yorker",
+   "link": "http://www.newyorker.com/wp-content/uploads/2015/11/Shapiro-Most-Famous-Dog-On-Instagram-1200x630-1448389260.jpg",
+   "displayLink": "www.newyorker.com",
+   "snippet": "The Most Famous American Dog ...",
+   "htmlSnippet": "The Most Famous American \u003cb\u003eDog\u003c/b\u003e ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.newyorker.com/culture/culture-desk/the-most-famous-dog-in-the-world-on-instagram",
+    "height": 630,
+    "width": 1200,
+    "byteSize": 119358,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRAT6_lM3HprYf_58cxRbh4hk6MYD-MfAk6tVbBaEURsfnwNsPI-oqJCiCa",
+    "thumbnailHeight": 79,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Dog Boarding, Spa, Daycare Fredericksburg | Dogtopia Fredericksburg",
+   "htmlTitle": "\u003cb\u003eDog\u003c/b\u003e Boarding, Spa, Daycare Fredericksburg | Dogtopia Fredericksburg",
+   "link": "https://www.dogtopia.com/fredericksburg/wp-content/uploads/sites/72/2016/01/dog-sit-homepage1.png",
+   "displayLink": "www.dogtopia.com",
+   "snippet": "Dogtopia Fredericksburg ...",
+   "htmlSnippet": "Dogtopia Fredericksburg ...",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://www.dogtopia.com/fredericksburg/",
+    "height": 300,
+    "width": 300,
+    "byteSize": 55759,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTe8g7pKToLtcSRGgUUrh3U6RGI_HtCE3GW-tRzoy_CQgDj37Q_vM2TYA",
+    "thumbnailHeight": 116,
+    "thumbnailWidth": 116
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "DNA tests to identify dog poo as No.6 goes to war on Gibraltar pet ...",
+   "htmlTitle": "DNA tests to identify \u003cb\u003edog\u003c/b\u003e poo as No.6 goes to war on Gibraltar pet ...",
+   "link": "http://www.gibraltarolivepress.com/wp-content/uploads/2016/11/Dog.jpg",
+   "displayLink": "www.gibraltarolivepress.com",
+   "snippet": "POO DUNNIT: DNA tests for dogs",
+   "htmlSnippet": "POO DUNNIT: DNA tests for \u003cb\u003edogs\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.gibraltarolivepress.com/2016/11/30/dna-tests-to-identify-dog-poo-as-no-6-goes-to-war-on-pet-mess/",
+    "height": 595,
+    "width": 1190,
+    "byteSize": 82380,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf99vbd06gpTAmcrjcyd0wRA5caYjCyvGAcWuynxVnZnZ_a7Zw6dRU_lU",
+    "thumbnailHeight": 75,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Dummy Dogs || \"Dog Fails\" By FailArmy - YouTube",
+   "htmlTitle": "Dummy \u003cb\u003eDogs\u003c/b\u003e || &quot;\u003cb\u003eDog\u003c/b\u003e Fails&quot; By FailArmy - YouTube",
+   "link": "https://i.ytimg.com/vi/Eg86emJjbwk/maxresdefault.jpg",
+   "displayLink": "www.youtube.com",
+   "snippet": "Dummy Dogs || \"Dog Fails\" By ...",
+   "htmlSnippet": "Dummy \u003cb\u003eDogs\u003c/b\u003e || &quot;\u003cb\u003eDog\u003c/b\u003e Fails&quot; By ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://www.youtube.com/watch?v=Eg86emJjbwk",
+    "height": 1080,
+    "width": 1920,
+    "byteSize": 183961,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZQTpm7opb6HDGPUY8nGdW86mQPOs1uHiiU0D7-oBz9PCidkPzerytamzQ",
+    "thumbnailHeight": 84,
+    "thumbnailWidth": 150
+   }
+  }
+ ]
+}

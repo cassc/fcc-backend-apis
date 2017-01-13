@@ -22,8 +22,7 @@
                  [org.xerial/sqlite-jdbc "3.7.2"]
                  [org.clojure/core.async "0.2.385"]
                  [environ "1.1.0"]]
-  :plugins [[lein-environ "1.1.0"]]
+  ;;:plugins [[lein-environ "1.1.0"]]
   :javac-options ["-target" "1.8" "-source" "1.8"]
-  :profiles {:dev {:env {:dev true}
-                   :source-paths ["src-dev"]}}
+  ;;:profiles {:dev {:source-paths ["src-dev"]}}
   :main ^:skip-aot backend-apis.core)

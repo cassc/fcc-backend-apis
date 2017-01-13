@@ -70,7 +70,7 @@
      (make-link (str (props :base-url) "/s/swsa"))]
     [:div
      [:h3 "Image Search Abstraction Layer"]
-     [:p
+     [:ul
       [:li "Search for image with query term and page offset"]
       [:li "Recent searchs"]]
      (make-link (str (props :base-url) "/img/search?term=cat&offset=10"))
