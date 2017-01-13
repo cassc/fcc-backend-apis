@@ -1,10 +1,6 @@
 # backend-apis
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+Freecodecamp backend [API projects](https://www.freecodecamp.com/challenges/timestamp-microservice) implemented in Clojure. See [demo page](http://www.cern.cc:3000/).
 
 ## License
 
