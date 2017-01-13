@@ -10,10 +10,15 @@
    [clojure.string :as s]
    [ring.util.response       :refer [response redirect]]
    [backend-apis.routes.base :refer :all]
-   [compojure.core           :refer :all]))
+   [compojure.core           :refer :all])
+  (:import
+   [java.net URLEncoder]))
 
 (def google-api-key (delay (env :google-api-key)))
 (def google-cx (delay (env :google-cx)))
+
+(defn url-encode [s]
+  (URLEncoder/encode s "UTF-8"))
 
 (defonce db
   (do
@@ -31,7 +36,7 @@
             (str "你还没有配置Google API key(google-api-key)及Search engine ID(google-cx)。参考"
                  "http://stackoverflow.com/questions/34035422/google-image-search-says-api-no-longer-available"))))
   (str "https://www.googleapis.com/customsearch/v1?"
-       "q=" term
+       "q=" (url-encode term)
        "&num=10"
        (when offset (str "&start=" offset))
        "&searchType=image&key=" @google-api-key
@@ -48,8 +53,10 @@
    items))
 
 (defn img-search [{:keys [term offset] :as params}]
-  (let [{:keys [status error body]} @(client/get (make-img-search-url params))]
+  (let [url (make-img-search-url params)
+        {:keys [status error body]} @(client/get url)]
     (add-to-db term)
+    (println url)
     (if (or error (not= 200 status))
       (response {:error error :body body})
       (response (-> body
