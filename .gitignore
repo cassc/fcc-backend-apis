@@ -1,4 +1,5 @@
 latestsearch.txt
+*.db
 short-urls.txt
 /target
 /classes

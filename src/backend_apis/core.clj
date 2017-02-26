@@ -16,6 +16,7 @@
    [backend-apis.routes.url-shorten   :refer [url-shorten-routes]]
    [backend-apis.routes.image-search  :refer [img-search-routes]]
    [backend-apis.routes.file-meta     :refer [file-meta-routes]]
+   [backend-apis.routes.comment       :refer [public-comment-routes]]
    [compojure.route                   :as route]
    [org.httpkit.server                :refer [run-server]]))
 
@@ -45,7 +46,7 @@
 
 (defn start-server []
   (let [dev? (env :dev)
-        my-routes [timestamp-routes header-parser-routes url-shorten-routes img-search-routes file-meta-routes public-routes] 
+        my-routes [timestamp-routes header-parser-routes url-shorten-routes img-search-routes file-meta-routes public-comment-routes public-routes] 
         app (-> (apply routes my-routes)
                 (wrap-logging)
                 (wrap-json-response)
@@ -68,5 +69,10 @@
 (defn -main []
   (start-server))
 
+
+(comment
+  (start-server)
+  (stop-server)
+  )
 
 
