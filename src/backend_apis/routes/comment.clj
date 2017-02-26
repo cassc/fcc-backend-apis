@@ -29,16 +29,18 @@
   (j/query (sqlite-db) ["select * from comment where host=? and uri=?" host uri]))
 
 (defn handle-post-comment [{:keys [params headers] :as req}]
-  (when-let [host (host-key-valid? (:key params))]
+  (if-let [host (host-key-valid? (:key params))]
     (let [ip (or (get-in req [:headers "x-real-ip"]) (:remote-addr req))]
       (save-comment (-> params
                         (select-keys [:email :content :nickname :uri])
                         (assoc :ip ip :host host)))
-      (response {:code "ok"}))))
+      (response {:code "ok"}))
+    (response {:code "err" :msg "invalid key"})))
 
 (defn handle-get-comment [{:keys [params headers]}]
-  (when-let [host (host-key-valid? (:key params))]
-    (response {:code "ok" :data (get-comment {:host host :uri (:uri params)})})))
+  (if-let [host (host-key-valid? (:key params))]
+    (response {:code "ok" :data (get-comment {:host host :uri (:uri params)})})
+    (response {:code "err" :msg "invalid key"})))
 
 (defroutes public-comment-routes
   (GET "/post/comment" req (handle-post-comment req))
